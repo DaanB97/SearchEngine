@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="353.0" prefWidth="399.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="searchengine.FXMLDocumentController">
+  <children>
+    <Button id="button" fx:id="btnZoek" layoutX="316.0" layoutY="14.0" onAction="#handleButtonAction" text="Zoek" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <TextField fx:id="tfZoek" layoutX="26.0" layoutY="14.0" prefWidth="290.0" />
+    <ListView fx:id="lvOverzicht" layoutX="26.0" layoutY="44.0" prefHeight="247.0" prefWidth="290.0" />
+    <Button id="btnSelecteermap" fx:id="btnSelecteerMap" layoutX="269.0" layoutY="303.0" mnemonicParsing="false" onAction="#btnSelecteerMap" text="Selecteer map" />
+    <TextField fx:id="tfBrowse" layoutX="26.0" layoutY="303.0" prefWidth="243.0" />
+  </children>
+</AnchorPane>
